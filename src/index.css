@@ -1,0 +1,28 @@
+@import "tailwindcss";
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Ant Design elementlariga dark mode ni qo'llash */
+.dark .ant-card, 
+.dark .ant-modal-content, 
+.dark .ant-input, 
+.dark .ant-input-number,
+.dark .ant-select-selector,
+.dark .ant-upload-list-item {
+  background-color: #1f2937 !important; /* gray-800 */
+  color: #f3f4f6 !important; /* gray-100 */
+  border-color: #4b5563 !important; /* gray-600 */
+}
+
+.dark .ant-typography,
+.dark .ant-list-item-meta-title,
+.dark .ant-table-cell,
+.dark .ant-pagination-item a {
+  color: #f3f4f6 !important;
+}
+
+.dark .ant-table {
+    background-color: #1f2937 !important;
+}
